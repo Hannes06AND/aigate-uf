@@ -92,12 +92,6 @@ main .text-box{
   color: #4a4a4a;;
 }
 
-h3{
-  margin-top: 0;
-  font-size: 1.5rem;
-  color: #333;
-}
-
 footer{
   background-color: rgba(0, 0, 0, 0.8);
   padding: 30px;
