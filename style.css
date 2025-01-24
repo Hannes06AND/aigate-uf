@@ -60,10 +60,17 @@ ul li a:hover{
 }
 
 h2{
-  text-align: center;
-  color: #f8f8f8;
+  color: rgb(43, 151, 191);
   font-size: 1.5em;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: underline dotted;
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.intro{
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 768px){
