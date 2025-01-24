@@ -109,7 +109,7 @@ footer{
   justify-content: space-evenly;
 }
 
-.footer-links{
+footer img{
   width: 8em;
   height: 8em;
 }
@@ -125,3 +125,5 @@ footer{
   height: auto;
   margin: 5px;
 }
+
+/*Colors logo: #00caff00 #ff7c7cff */
