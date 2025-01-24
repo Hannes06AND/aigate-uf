@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header{
+  background-color: #004a5f;
+  width: 100%;
+  padding: 2em;
+}
+
+.header header{
+  flex-flow: row wrap;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: #575757;
+  font-size: 16px;
+}
+
+.ingress{
+  border: #00caff .2em solid;
+  border-radius: 1em;
+  padding: 1em;
+  margin: .25em;
+  background-color: #8c8c8c;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+ul li{
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+img{
+  width: 70%;
+  height: auto;
+  margin: 1em;
+}
+
+h1{
+font-size: 3em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+h1, h2, h3, h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f9f9f9;
+}
+
+.navigation{
+  background-color: #64969c;
+  padding: 20px;
+  border-right: 5px #b0d0eb solid;
+  border-bottom: 5px #b0d0eb solid;
+  white-space: nowrap;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 1em;
+}
+
+nav ul li{
+  margin-bottom: 10px;
+}
+
+a:hover{
+  color: rgb(255, 105, 180);
+  text-decoration: none;
+}
+
+nav ul li a{
+  color: #28282B;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main{
+  padding: 2em;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.footer{
+  padding: 3em;
+  background-color: #333333;
+  width: 100%;
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer img{
+  width: 5em;
+  height: 5em;
+  margin: 0.5em;
+}
+
+.tc-logo{
+  width: 10em;
+  height: 10em;
+}
+
+.logotype{
+  width: 20em;
+  height: 10em;
+  margin-left: 1em;
+}
+/*Colors logo: #00caff00 #ff7c7cff */
