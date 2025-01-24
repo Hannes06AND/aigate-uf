@@ -44,10 +44,21 @@ header{
   margin: 20px;
 }
 
-ul li{
-  list-style: none;
+.meny li{
   font-weight: bold;
+  font-size: 24px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(43, 151, 191);
+  list-style: none;
+}
+
+.text-box ul li{
+  list-style: decimal;
+  text-decoration: underline dotted;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(43, 151, 191);
   font-size: 20px;
+  font-weight: bold;
 }
 
 ul li a{
