@@ -52,8 +52,8 @@ header{
   list-style: none;
 }
 
-.text-box ul li{
-  list-style: decimal;
+.text-box ul li, .intro ul li{
+  list-style: disc;
   text-decoration: underline dotted;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(43, 151, 191);
