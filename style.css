@@ -50,6 +50,9 @@ header{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(43, 151, 191);
   list-style: none;
+  border: 3px #afb5ff solid;
+  border-radius: 8px;
+  margin: 5px;
 }
 
 .text-box ul li, .intro ul li{
