@@ -53,7 +53,34 @@ header{
   border: 3px #afb5ff solid;
   border-radius: 8px;
   margin: 5px;
+  display: inline-block;
+  position: relative;
 }
+
+.meny li a{
+  display: block;
+  padding: 20px 25px;
+}
+
+.meny li ul.dropdown li{
+  display: block;
+}
+
+.meny li ul.dropdown{
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+.meny li a:hover{
+  background-color: #4a4a4a;
+}
+
+.meny li:hover ul.dropdown{
+  display: block;
+}
+
 
 .text-box ul li, .intro ul li{
   list-style: disc;
@@ -70,7 +97,7 @@ ul li a{
   margin: 5px;
 }
 
-ul li a:hover, a:hover{
+a:hover{
   color: hotpink;
   transition: 0.5s ease;
 }
