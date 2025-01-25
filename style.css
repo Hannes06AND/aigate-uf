@@ -59,7 +59,7 @@ header{
 
 .meny li a{
   display: block;
-  padding: 20px 25px;
+  padding: 0px;
 }
 
 .meny li ul.dropdown li{
@@ -68,6 +68,7 @@ header{
 
 .meny li ul.dropdown{
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   z-index: 999;
   display: none;
@@ -80,7 +81,6 @@ header{
 .meny li:hover ul.dropdown{
   display: block;
 }
-
 
 .text-box ul li, .intro ul li{
   list-style: disc;
