@@ -67,7 +67,7 @@ ul li a{
   margin: 5px;
 }
 
-ul li a:hover{
+ul li a:hover, a:hover{
   color: hotpink;
   transition: 0.5s ease;
 }
@@ -137,6 +137,13 @@ footer img{
   width: 80%;
   height: auto;
   margin: 5px;
+}
+
+figcaption{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+  font-style: italic;
 }
 
 /*Colors logo: #00caff00 #ff7c7cff */
