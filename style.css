@@ -71,10 +71,12 @@ header{
 
 .meny li ul.dropdown{
   width: auto;
+  display: none;
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   z-index: 999;
-  display: none;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .meny li a:hover{
