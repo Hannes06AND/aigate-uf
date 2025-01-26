@@ -13,6 +13,48 @@ body{
   min-height: 100vh;
 }
 
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    min-height: 100vh;
+  }
+
+  header {
+    order: 1;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: #000;
+  }
+
+  aside {
+    order: 2;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+  }
+
+  main {
+    order: 3;
+    width: auto;
+    padding: 20px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  footer {
+    order: 4;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
 aside{
   grid-column: 1 / 2;
   grid-row: 1 / 3;
