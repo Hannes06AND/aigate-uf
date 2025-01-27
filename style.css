@@ -52,6 +52,7 @@ body{
     padding: 30px;
     display: flex;
     justify-content: space-evenly;
+    border-top: 5px rgba(90, 136, 211, 0.5) solid;
   }
 }
 
