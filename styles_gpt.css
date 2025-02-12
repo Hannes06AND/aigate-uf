@@ -25,7 +25,7 @@ body{
       background-attachment: fixed; /* Keeps the background static */
       background-position: center;
       background-repeat: no-repeat;
-      overflow: hidden; /* Prevent body from scrolling */
+      overflow: auto; /* Allow the page to scroll if needed */
     }
   
     main {
@@ -37,6 +37,7 @@ body{
       border-bottom: none !important;
       overflow-y: auto; /* Make the main content scrollable */
       flex-grow: 1; /* Allow the content to take up available space */
+      max-height: 100vh; /* Prevent the main content from overflowing outside the viewport */
     }
   
     aside {
