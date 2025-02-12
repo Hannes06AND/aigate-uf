@@ -14,43 +14,47 @@ body{
   }
 
   @media (max-width: 1200px) {
-    body{
+    body {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: stretch;
       min-height: 100vh;
       background-image: url(water-background.jpg);
-      background-size: cover; /* Ensure the background image scales properly */
-      background-attachment: scroll; /* Allow scrolling on mobile devices */
+      background-size: cover;
+      background-attachment: fixed; /* Keeps the background static */
       background-position: center;
       background-repeat: no-repeat;
+      overflow: hidden; /* Prevent body from scrolling */
     }
   
-    header{
-      order: 1;
-      width: auto;
-      background-color: rgba(0, 0, 0, 0.5);
-      border-left: none !important;
-    }
-  
-    aside{
-      order: 2;
-      width: auto;
-      background-color: rgba(0, 0, 0, 0.8);
-      padding: 20px;
-    }
-  
-    main{
+    main {
       order: 3;
       width: auto;
       padding: 20px;
       border-left: none !important;
       border-top: none !important;
       border-bottom: none !important;
+      overflow-y: auto; /* Make the main content scrollable */
+      flex-grow: 1; /* Allow the content to take up available space */
     }
   
-    footer{
+    aside {
+      order: 2;
+      width: auto;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      flex-grow: 0;
+    }
+  
+    header {
+      order: 1;
+      width: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-left: none !important;
+    }
+  
+    footer {
       order: 4;
       width: auto;
       background-color: rgba(0, 0, 0, 0.8);
