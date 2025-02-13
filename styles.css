@@ -58,11 +58,6 @@ body{
       display: flex;
       justify-content: space-evenly;
     }
-
-    main .text-box{
-      padding: .8rem;
-      margin: .5rem .1rem .5rem .1rem !important;
-    }
   }  
   
   aside{
